@@ -36,7 +36,7 @@ jobs:
       - name: Commit results to Github
         run: |
             git config --local user.email ""
-            git config --global user.name "BotPEASS"
+            git config --global user.name "BotPEASS-Neo"
             git commit -m "Bot auto update" -a --allow-empty
 
       - name: Push changes
